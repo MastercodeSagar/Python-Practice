@@ -1,0 +1,10 @@
+"""Chapter_12 - Program 7: an iterator.
+
+Beginner definition: Advanced tools provide shorter or more flexible ways to process data, repeat work, and extend functions.
+Read the comments, run this file, and change one value to observe the result.
+"""
+# The code below demonstrates the definition in this practical.
+
+numbers = iter([10, 20])
+print("7.", next(numbers), next(numbers))
+
